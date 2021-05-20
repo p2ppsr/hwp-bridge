@@ -1,4 +1,4 @@
-# @cwi/hwp-bridge
+# hwp-bridge
 
 Bridgeport bridge for HWP
 

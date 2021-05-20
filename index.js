@@ -45,7 +45,7 @@ PUSHDATA | Field
 When you create a transaction using the protocol, the HWP Bridgeport state machine will collect it and aggregate it into the HWP Bridge database, where it will be made available along with all other HWP messages. When you write queries against this dataset, the documents are in the following format:
 
 - **sender**: The Bitcoin SV address from field 3 which signed the HWP message transaction
-- **txid**: The TXID of the HWP transaction
+- **_id**: The TXID of the HWP transaction
 - **message**: The content that was sent in the HWP message
 `
 }
